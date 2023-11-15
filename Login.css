@@ -1,0 +1,66 @@
+body{
+	background: url(pizza2.png);
+    background-size: cover;
+}
+h1{
+	color:#E42F00;
+	text-align: center;
+}
+.loginform{
+	background: rgb(0,0,0,0.7);
+    padding: 10px;
+    margin: 10%;
+    width: 20%;
+    height: 20%;
+    box-shadow: 0 15px 25px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+}
+form{
+	display: flex;
+	flex-direction: column;
+    align-items: flex-start;
+    color: navajowhite;
+        padding: 10px 20px;
+        height: 280px;
+}
+form input{
+	width: 15rem;
+    height: 30px;
+    /*margin: auto 20px auto 20px;*/
+    /* border-radius: 5px; */
+    /* border-color: transparent; */
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #fff;
+    color: whitesmoke;
+    outline:none;
+}
+::-ms-reveal {
+  filter: invert(100%);
+}
+
+form p{
+    margin: 10px 0px 10px 0px;
+    font-size: 24px;
+}
+
+form button{
+	background-color: red;
+    color: white;
+    margin: 10px 0px;
+    width: 96%;
+    height: 15%;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+.Error{
+	display:none;
+}
+h2{
+	margin: 0% 0% 0% 0%;
+    text-align: center;
+    font-size: x-large;
+    color: #f82727;
+    font-family: cursive;
+}

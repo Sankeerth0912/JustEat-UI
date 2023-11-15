@@ -1,0 +1,61 @@
+body{
+	background: url(pizza6.jpg);
+    background-size: cover;
+    /*backdrop-filter: blur(8px);*/
+    height: 100vh;
+    margin:0px;
+}
+
+form{
+	display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: space-evenly;
+    color: navajowhite;
+    
+}
+
+form button{
+	width: 15%;
+    margin: 0% 0% 0% 2%;
+    background-color: darkred;
+    border: none;
+    border-radius: 10px;
+    font-weight: lighter;
+    font-size: 20px;
+    height: 40px;
+    color: wheat;
+}
+
+form input{
+	width: 17rem;
+    height: 30px;
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #fff;
+    color: white;
+    outline:none;
+	
+	
+}
+
+form p{
+	margin: 20px 0px 10px 0px;
+    font-size: 24px;
+	font-weight: bold;
+}
+
+.searchOrder{
+	/*margin-top: 5%;
+    margin-bottom: 2%;*/
+    margin-left: 60%;
+}
+
+.displayOrder{
+	border-radius: 10px;
+    background: rgb(0,0,0,0.7);
+    margin: 0% 65% 0% 10%;
+    padding: 3%;
+	box-shadow: 0 15px 25px rgb(0 0 0 / 25%);
+}
